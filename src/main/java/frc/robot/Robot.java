@@ -4,7 +4,9 @@
 
 package frc.robot;
 
+import edu.wpi.first.wpilibj.Encoder;
 import edu.wpi.first.wpilibj.TimedRobot;
+import edu.wpi.first.wpilibj.simulation.EncoderSim;
 import edu.wpi.first.wpilibj2.command.Command;
 import edu.wpi.first.wpilibj2.command.CommandScheduler;
 
@@ -97,5 +99,6 @@ public class Robot extends TimedRobot {
 
   /** This function is called periodically whilst in simulation. */
   @Override
-  public void simulationPeriodic() {}
+  public void simulationPeriodic() {
+  }
 }
